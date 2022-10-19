@@ -1,16 +1,3 @@
-var check = document.querySelector(".language");
-
-check.addEventListener('click', idioma);
-
-function idioma(){
-    let value = check.checked; 
-    
-
-    if(value == true){
-        current = location.pathname.substring(1);
-        location.href="/us/" + current;
-    }else{
-        current = location.pathname.substring(4);
-        location.href="../"+ current;
-    }
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:82e2b1545973faa31c1469a633f686be583f18e56de6749890623a5dae453946
+size 383
